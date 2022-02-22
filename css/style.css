@@ -234,6 +234,7 @@ h1, h2, h3, p, ul, li {
   font-size: var(--primary-font-sz);
   line-height: var(--secondary-line-hght);
   margin-bottom: 50px;
+  text-align: center;
 }
 .work-tittle,
 .team-maintittle {
@@ -257,6 +258,7 @@ h1, h2, h3, p, ul, li {
   font-size: var(--secondary-font-sz);
   line-height: var(--fourth-line-hght);
   text-align: center;
+  font-weight: 500;
 
   margin-bottom: 10px;
 }
@@ -287,7 +289,6 @@ background-color: #F5F4FA;
 /* ФУТЕР */
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;}
 
 .adres-footer {
@@ -312,11 +313,12 @@ background-color: #F5F4FA;
   margin-bottom: 9px;
 }
 
-.tel {
-  padding-bottom: 60px;
-}
+
 .footer {
   background-color: var(--secondary-link-clr);
+  padding-bottom: 60px;
+  padding-top: 60px;
+
 }
 /* background-color: #2F303A; */
 .link-clr {
@@ -352,8 +354,7 @@ background-color: #F5F4FA;
   background: #F5F4FA;
   border-radius: 4px;
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  
+    
   padding: 6px 22px;
 }
 .btn-list {
