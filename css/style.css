@@ -147,8 +147,29 @@ h1, h2, h3, p, ul, li {
 .banner {
   background-color: var(--secondary-link-clr);
   text-align: center;
+
   padding: 200px 0;
+/* background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+  /* background-image: url(../images/background.jpg),  ; */
+   
+  /* width: 1600px;
+  height: 600px;  
+  margin-right: auto;
+  margin-left: auto; */
+  
 }
+.overlay {
+  width: 1600px;
+  height: 600px;  
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #C4C4C4;;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+  
+}
+
+
+
 .banner-tittle {
   line-height: 1.36;
   font-family: Roboto;
@@ -181,6 +202,7 @@ h1, h2, h3, p, ul, li {
   height: 50px;
   left: 700px;
   top: 430px;
+
   padding: 10px 32px;
 }
 
@@ -213,6 +235,17 @@ h1, h2, h3, p, ul, li {
 .peculiarities-items:not(:last-child), .work-items:not(:last-child), .team-items:not(:last-child) {
   margin-right: 30px;
 }
+/* .peculiarities-items::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/antena.svg); */
+/* } */
+
+
 .peculiarities-text {
   max-width: 270px;
 }
